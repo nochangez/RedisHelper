@@ -23,7 +23,7 @@ class RedisHelper:
     async def decode_bytes(encoded_value):
         """
         :param encoded_value: data to decode
-        :return: gets redis byte data and return decoded data
+        :return: gets redis byte data and returns decoded data
         """
 
         return encoded_value.decode("utf-8")
